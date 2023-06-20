@@ -1,0 +1,21 @@
+{% extends "layout.html" %}
+{% block content %}
+
+<div class="container-feedback">
+    <form id="form-feedback" class="form-feedback">
+	               <h1>Мы Вам перезвоним!</h1>
+                   <label for="fio" class="form-feedback__label-fio">Ваше ФИО</label>
+                   <input type="text" name="fio" id="fio" placeholder="ФИО"/>
+                   <label for="adress" class="form-feedback__label-adress">Ваш адрес</label>
+                   <input type="text" name="adress" id="adress" placeholder="адрес"/>
+                   <label for="tel" class="form-feedback__label-tel">Ваш телефон</label>
+                   <input type="text" name="tel" id="tel"  placeholder="+7(___)___-__-__"/>
+                   <label for="mail" class="form-feedback__label-mail">Ваш email</label>
+                   <input type="text" name="mail" id="mail" placeholder="email"/>
+                   <p class="form-feedback__information">Введите пожалуйста корректную информацию</p>   
+                   <button type="submit" class='form-feedback__submit' id="form-feedback__submit" >ОТПРАВИТЬ</button>
+				   <div id="feedback-result"></div>
+   </form>
+   
+</div> 
+{% endblock %}
