@@ -1,0 +1,147 @@
+body {
+    font-family: Roboto, "Segoe UI", "Helvetica Neue", Arial, "Noto Sans", sans-serif;
+}
+h1 {
+    color: #be1116;
+}
+.container-feedback {
+    display: flex;
+	justify-content: center;
+	width: 100%;
+}	
+.form-feedback {
+    display: flex;
+	flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 442px;
+ 
+}
+input[type=text] {
+    width: 441px;
+    height: 50px;
+    margin: 0 0 20px 0;
+    padding-left: 15px;
+	
+}
+input[type=text]:focus {
+    outline: none;
+}
+	
+
+
+
+
+.modal-title {
+    display: none;
+    color: #be1116;
+}
+.modal [type="text"] {
+    border: 1px solid #DEDED2;
+	
+}
+#fio {
+    border: 1px solid;
+    border-color: #DEDED2;
+    
+}
+
+#tel {
+    border: 1px solid;
+    border-color: #DEDED2;
+    
+}
+#adress {
+    border: 1px solid;
+    border-color: #DEDED2;
+    
+}
+#mail {
+    border: 1px solid;
+    border-color: #DEDED2;
+    
+}
+.form-feedback__submit {
+    background-color: #be1116;
+    color: #fff;
+    border: 2px solid #be1116;
+	margin: 23px 0 0 0;
+	height: 50px;
+	width: 262px;
+}
+.form-feedback__submit:hover {
+    background-color: #fff;
+    color: #be1116;
+    border: 2px solid #be1116;
+}
+#text-fio {
+ display: none;   
+ color: #be1116;
+ font-size: 15px;
+ 
+}
+
+#text-address {
+ display: none;   
+ color: #be1116;
+ font-size: 15px;
+ 
+}
+
+#text-telephone {
+ display: none;   
+ color: #be1116;
+ font-size: 15px;
+ 
+}
+
+#text-mail {
+ display: none;   
+ color: #be1116;
+ font-size: 15px;
+ 
+}
+table {
+    border: 2px solid #000000;
+}
+td {
+   border: 2px solid #000000; 
+}
+.news {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+#feedback-result {
+    
+    margin: 20px auto;	
+}
+.form-feedback__label-fio, .form-feedback__label-adress, .form-feedback__label-tel, .form-feedback__label-mail {
+    font-size: 12px;
+    align-self: flex-start;
+	opacity: 1;
+}
+.form-feedback__information {
+    display: none;
+	font-size: 14px;
+	color: #be1116
+}
+table {
+	width: 100%;
+	margin-bottom: 20px;
+	border: 1px solid #dddddd;
+	border-collapse: collapse; 
+}
+td {
+	border: 1px solid #dddddd;
+	padding: 5px;
+}
+@media (min-width: 320px) and (max-width: 479px) {
+    input[type=text] {
+        width: 315px;
+	}
+	.form-feedback {
+	    width: 316px;
+	}	
+}
